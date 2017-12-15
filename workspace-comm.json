@@ -1,0 +1,42 @@
+{
+    "layout": "splith",
+    "nodes": [
+        {
+            "percent": 0.5,
+            "layout": "splitv",
+            "nodes": [
+                {
+                    "percent": 1,
+                    "swallows": [
+                        {
+                           "class": "^Claws-mail$"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "percent": 0.5,
+            "layout": "splitv",
+            "nodes": [
+                {
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                           "title": "^weechat$"
+                       }
+                    ]
+                },
+                {
+                    "percent": 0.5,
+                    "swallows": [
+                        {
+                            "class": "^Google-chrome$",
+                            "instance": "^eu\\.yourcircuit\\.com$"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
